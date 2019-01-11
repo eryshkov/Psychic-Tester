@@ -17,6 +17,14 @@ class ViewController: UIViewController {
     
     //MARK: -
     @objc func loadCards() {
+        
+        for card in allCards {
+            card.view.removeFromSuperview()
+            card.removeFromParent()
+        }
+        
+        allCards.removeAll(keepingCapacity: true)
+        
         let positions = [
             CGPoint(x: 75, y: 85),
             CGPoint(x: 185, y: 85),
