@@ -19,6 +19,7 @@
 		5CB346B821E890920046E590 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB346B721E890920046E590 /* InterfaceController.swift */; };
 		5CB346BA21E890920046E590 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB346B921E890920046E590 /* ExtensionDelegate.swift */; };
 		5CB346BC21E890930046E590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB346BB21E890930046E590 /* Assets.xcassets */; };
+		5CB346CC21E8916D0046E590 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		5CB346B921E890920046E590 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		5CB346BB21E890930046E590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB346BD21E890930046E590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				5CB3469421E890900046E590 /* AppDelegate.swift */,
 				5CB3469621E890900046E590 /* ViewController.swift */,
 				5CB3469821E890900046E590 /* Main.storyboard */,
+				5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */,
 				5CB3469B21E890920046E590 /* Assets.xcassets */,
 				5CB3469D21E890920046E590 /* LaunchScreen.storyboard */,
 				5CB346A021E890920046E590 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CB3469F21E890920046E590 /* LaunchScreen.storyboard in Resources */,
+				5CB346CC21E8916D0046E590 /* PhantomFromSpace.mp3 in Resources */,
 				5CB3469C21E890920046E590 /* Assets.xcassets in Resources */,
 				5CB3469A21E890900046E590 /* Main.storyboard in Resources */,
 			);
@@ -463,8 +467,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = "Psychic Tester WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,6 +477,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -485,8 +490,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = "Psychic Tester WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -495,6 +500,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -508,12 +514,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				IBSC_MODULE = Psychic_Tester_WatchKit_Extension;
 				INFOPLIST_FILE = "Psychic Tester WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -527,12 +534,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				IBSC_MODULE = Psychic_Tester_WatchKit_Extension;
 				INFOPLIST_FILE = "Psychic Tester WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
@@ -545,17 +553,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = "Psychic Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -563,17 +573,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2EB4KC7497;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Z256VMH9HM;
 				INFOPLIST_FILE = "Psychic Tester/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 2in1;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
