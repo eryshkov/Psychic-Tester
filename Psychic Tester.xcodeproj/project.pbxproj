@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB3469521E890900046E590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3469421E890900046E590 /* AppDelegate.swift */; };
+		5CB3469721E890900046E590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3469621E890900046E590 /* ViewController.swift */; };
+		5CB3469A21E890900046E590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB3469821E890900046E590 /* Main.storyboard */; };
+		5CB3469C21E890920046E590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB3469B21E890920046E590 /* Assets.xcassets */; };
+		5CB3469F21E890920046E590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB3469D21E890920046E590 /* LaunchScreen.storyboard */; };
+		5CB346A421E890920046E590 /* Psychic Tester WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5CB346A321E890920046E590 /* Psychic Tester WatchKit App.app */; };
+		5CB346AA21E890920046E590 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB346A821E890920046E590 /* Interface.storyboard */; };
+		5CB346AC21E890920046E590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB346AB21E890920046E590 /* Assets.xcassets */; };
+		5CB346B321E890920046E590 /* Psychic Tester WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5CB346B221E890920046E590 /* Psychic Tester WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5CB346B821E890920046E590 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB346B721E890920046E590 /* InterfaceController.swift */; };
+		5CB346BA21E890920046E590 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB346B921E890920046E590 /* ExtensionDelegate.swift */; };
+		5CB346BC21E890930046E590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB346BB21E890930046E590 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CB346A521E890920046E590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CB3468921E890900046E590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB346A221E890920046E590;
+			remoteInfo = "Psychic Tester WatchKit App";
+		};
+		5CB346B421E890920046E590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CB3468921E890900046E590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB346B121E890920046E590;
+			remoteInfo = "Psychic Tester WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CB346C321E890930046E590 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5CB346B321E890920046E590 /* Psychic Tester WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB346C721E890930046E590 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5CB346A421E890920046E590 /* Psychic Tester WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5CB3469121E890900046E590 /* Psychic Tester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psychic Tester.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB3469421E890900046E590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CB3469621E890900046E590 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CB3469921E890900046E590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CB3469B21E890920046E590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CB3469E21E890920046E590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CB346A021E890920046E590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB346A321E890920046E590 /* Psychic Tester WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psychic Tester WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB346A921E890920046E590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5CB346AB21E890920046E590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CB346AD21E890920046E590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB346B221E890920046E590 /* Psychic Tester WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Psychic Tester WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB346B721E890920046E590 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5CB346B921E890920046E590 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5CB346BB21E890930046E590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CB346BD21E890930046E590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB3468E21E890900046E590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB346AF21E890920046E590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB3468821E890900046E590 = {
+			isa = PBXGroup;
+			children = (
+				5CB3469321E890900046E590 /* Psychic Tester */,
+				5CB346A721E890920046E590 /* Psychic Tester WatchKit App */,
+				5CB346B621E890920046E590 /* Psychic Tester WatchKit Extension */,
+				5CB3469221E890900046E590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB3469221E890900046E590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB3469121E890900046E590 /* Psychic Tester.app */,
+				5CB346A321E890920046E590 /* Psychic Tester WatchKit App.app */,
+				5CB346B221E890920046E590 /* Psychic Tester WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB3469321E890900046E590 /* Psychic Tester */ = {
+			isa = PBXGroup;
+			children = (
+				5CB3469421E890900046E590 /* AppDelegate.swift */,
+				5CB3469621E890900046E590 /* ViewController.swift */,
+				5CB3469821E890900046E590 /* Main.storyboard */,
+				5CB3469B21E890920046E590 /* Assets.xcassets */,
+				5CB3469D21E890920046E590 /* LaunchScreen.storyboard */,
+				5CB346A021E890920046E590 /* Info.plist */,
+			);
+			path = "Psychic Tester";
+			sourceTree = "<group>";
+		};
+		5CB346A721E890920046E590 /* Psychic Tester WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5CB346A821E890920046E590 /* Interface.storyboard */,
+				5CB346AB21E890920046E590 /* Assets.xcassets */,
+				5CB346AD21E890920046E590 /* Info.plist */,
+			);
+			path = "Psychic Tester WatchKit App";
+			sourceTree = "<group>";
+		};
+		5CB346B621E890920046E590 /* Psychic Tester WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5CB346B721E890920046E590 /* InterfaceController.swift */,
+				5CB346B921E890920046E590 /* ExtensionDelegate.swift */,
+				5CB346BB21E890930046E590 /* Assets.xcassets */,
+				5CB346BD21E890930046E590 /* Info.plist */,
+			);
+			path = "Psychic Tester WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB3469021E890900046E590 /* Psychic Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB346C821E890930046E590 /* Build configuration list for PBXNativeTarget "Psychic Tester" */;
+			buildPhases = (
+				5CB3468D21E890900046E590 /* Sources */,
+				5CB3468E21E890900046E590 /* Frameworks */,
+				5CB3468F21E890900046E590 /* Resources */,
+				5CB346C721E890930046E590 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB346A621E890920046E590 /* PBXTargetDependency */,
+			);
+			name = "Psychic Tester";
+			productName = "Psychic Tester";
+			productReference = 5CB3469121E890900046E590 /* Psychic Tester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CB346A221E890920046E590 /* Psychic Tester WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB346C421E890930046E590 /* Build configuration list for PBXNativeTarget "Psychic Tester WatchKit App" */;
+			buildPhases = (
+				5CB346A121E890920046E590 /* Resources */,
+				5CB346C321E890930046E590 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB346B521E890920046E590 /* PBXTargetDependency */,
+			);
+			name = "Psychic Tester WatchKit App";
+			productName = "Psychic Tester WatchKit App";
+			productReference = 5CB346A321E890920046E590 /* Psychic Tester WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5CB346B121E890920046E590 /* Psychic Tester WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB346C021E890930046E590 /* Build configuration list for PBXNativeTarget "Psychic Tester WatchKit Extension" */;
+			buildPhases = (
+				5CB346AE21E890920046E590 /* Sources */,
+				5CB346AF21E890920046E590 /* Frameworks */,
+				5CB346B021E890920046E590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Psychic Tester WatchKit Extension";
+			productName = "Psychic Tester WatchKit Extension";
+			productReference = 5CB346B221E890920046E590 /* Psychic Tester WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB3468921E890900046E590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Evgeniy Ryshkov";
+				TargetAttributes = {
+					5CB3469021E890900046E590 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5CB346A221E890920046E590 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5CB346B121E890920046E590 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CB3468C21E890900046E590 /* Build configuration list for PBXProject "Psychic Tester" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CB3468821E890900046E590;
+			productRefGroup = 5CB3469221E890900046E590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB3469021E890900046E590 /* Psychic Tester */,
+				5CB346A221E890920046E590 /* Psychic Tester WatchKit App */,
+				5CB346B121E890920046E590 /* Psychic Tester WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB3468F21E890900046E590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB3469F21E890920046E590 /* LaunchScreen.storyboard in Resources */,
+				5CB3469C21E890920046E590 /* Assets.xcassets in Resources */,
+				5CB3469A21E890900046E590 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB346A121E890920046E590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB346AC21E890920046E590 /* Assets.xcassets in Resources */,
+				5CB346AA21E890920046E590 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB346B021E890920046E590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB346BC21E890930046E590 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB3468D21E890900046E590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB3469721E890900046E590 /* ViewController.swift in Sources */,
+				5CB3469521E890900046E590 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB346AE21E890920046E590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB346BA21E890920046E590 /* ExtensionDelegate.swift in Sources */,
+				5CB346B821E890920046E590 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CB346A621E890920046E590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB346A221E890920046E590 /* Psychic Tester WatchKit App */;
+			targetProxy = 5CB346A521E890920046E590 /* PBXContainerItemProxy */;
+		};
+		5CB346B521E890920046E590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB346B121E890920046E590 /* Psychic Tester WatchKit Extension */;
+			targetProxy = 5CB346B421E890920046E590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CB3469821E890900046E590 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB3469921E890900046E590 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CB3469D21E890920046E590 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB3469E21E890920046E590 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5CB346A821E890920046E590 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB346A921E890920046E590 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CB346BE21E890930046E590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CB346BF21E890930046E590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CB346C121E890930046E590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EB4KC7497;
+				INFOPLIST_FILE = "Psychic Tester WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		5CB346C221E890930046E590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EB4KC7497;
+				INFOPLIST_FILE = "Psychic Tester WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		5CB346C521E890930046E590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EB4KC7497;
+				IBSC_MODULE = Psychic_Tester_WatchKit_Extension;
+				INFOPLIST_FILE = "Psychic Tester WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		5CB346C621E890930046E590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EB4KC7497;
+				IBSC_MODULE = Psychic_Tester_WatchKit_Extension;
+				INFOPLIST_FILE = "Psychic Tester WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		5CB346C921E890930046E590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EB4KC7497;
+				INFOPLIST_FILE = "Psychic Tester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CB346CA21E890930046E590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EB4KC7497;
+				INFOPLIST_FILE = "Psychic Tester/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dum22ns90.com1004.Psychic-Tester";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB3468C21E890900046E590 /* Build configuration list for PBXProject "Psychic Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB346BE21E890930046E590 /* Debug */,
+				5CB346BF21E890930046E590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB346C021E890930046E590 /* Build configuration list for PBXNativeTarget "Psychic Tester WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB346C121E890930046E590 /* Debug */,
+				5CB346C221E890930046E590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB346C421E890930046E590 /* Build configuration list for PBXNativeTarget "Psychic Tester WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB346C521E890930046E590 /* Debug */,
+				5CB346C621E890930046E590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB346C821E890930046E590 /* Build configuration list for PBXNativeTarget "Psychic Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB346C921E890930046E590 /* Debug */,
+				5CB346CA21E890930046E590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB3468921E890900046E590 /* Project object */;
+}
