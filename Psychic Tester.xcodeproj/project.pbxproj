@@ -20,6 +20,7 @@
 		5CB346BA21E890920046E590 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB346B921E890920046E590 /* ExtensionDelegate.swift */; };
 		5CB346BC21E890930046E590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB346BB21E890930046E590 /* Assets.xcassets */; };
 		5CB346CC21E8916D0046E590 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */; };
+		5CB346CE21E895F90046E590 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB346CD21E895F90046E590 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		5CB346BB21E890930046E590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB346BD21E890930046E590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
+		5CB346CD21E895F90046E590 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				5CB3469421E890900046E590 /* AppDelegate.swift */,
 				5CB3469621E890900046E590 /* ViewController.swift */,
+				5CB346CD21E895F90046E590 /* CardViewController.swift */,
 				5CB3469821E890900046E590 /* Main.storyboard */,
 				5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */,
 				5CB3469B21E890920046E590 /* Assets.xcassets */,
@@ -292,6 +295,7 @@
 			files = (
 				5CB3469721E890900046E590 /* ViewController.swift in Sources */,
 				5CB3469521E890900046E590 /* AppDelegate.swift in Sources */,
+				5CB346CE21E895F90046E590 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
