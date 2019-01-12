@@ -36,6 +36,19 @@ class CardViewController: UIViewController {
         }
     }
     
+    @objc func wiggle() {
+        if Int.random(in: 0 ... 3) == 1 {
+            UIView.animate(withDuration: 0.2, delay: 0, options: .allowUserInteraction, animations: {[unowned self] in
+                self.back.transform = CGAffineTransform(scaleX: 1.01, y: 1.01)
+            }) {[unowned self] _ in
+                self.back.transform = CGAffineTransform.identity
+            }
+            perform(#selector(wiggle), with: nil, afterDelay: 8)
+        }else{
+            perform(#selector(wiggle), with: nil, afterDelay: 2)
+        }
+    }
+    
     //MARK: -
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,6 +70,8 @@ class CardViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self, action: #selector(cardTapped))
         back.isUserInteractionEnabled = true
         back.addGestureRecognizer(tap)
+        
+        perform(#selector(wiggle), with: nil, afterDelay: 1)
     }
     
 
