@@ -86,6 +86,7 @@
 		5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
 		5CB346CD21E895F90046E590 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		5CB346D321E9BC170046E590 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		5CB346D521E9FB3F0046E590 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,8 @@
 		5CB3468821E890900046E590 = {
 			isa = PBXGroup;
 			children = (
+				5CB346D621E9FB480046E590 /* screens */,
+				5CB346D521E9FB3F0046E590 /* README.md */,
 				5CB3469321E890900046E590 /* Psychic Tester */,
 				5CB346A721E890920046E590 /* Psychic Tester WatchKit App */,
 				5CB346B621E890920046E590 /* Psychic Tester WatchKit Extension */,
@@ -193,6 +196,13 @@
 				5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		5CB346D621E9FB480046E590 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
