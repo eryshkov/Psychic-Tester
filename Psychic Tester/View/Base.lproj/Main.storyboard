@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="daU-O8-vhc" customClass="GradientView" customModule="Psychic_Tester" customModuleProvider="target">
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="daU-O8-vhc" customClass="GradientView" customModule="Psychic_Tester" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -38,9 +39,11 @@
                             <constraint firstAttribute="trailing" secondItem="daU-O8-vhc" secondAttribute="trailing" id="izB-Rt-xrO"/>
                             <constraint firstItem="DdF-V6-UxH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jSq-TE-L4P"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="xnx-V3-tnn"/>
                     </view>
                     <connections>
                         <outlet property="cardContainer" destination="DdF-V6-UxH" id="1bU-Yj-8Y0"/>
+                        <outlet property="gradientView" destination="daU-O8-vhc" id="KOR-d4-oiA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
