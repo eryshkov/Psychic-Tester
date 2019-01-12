@@ -10,12 +10,15 @@ import UIKit
 
 class GradientView: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    @IBInspectable var topColor = UIColor.white
+    @IBInspectable var bottomColor = UIColor.black
+    
+    override class var layerClass: AnyClass {
+        return CAGradientLayer.self
     }
-    */
+    
+    override func layoutSubviews() {
+        (layer as! CAGradientLayer).colors = [topColor.cgColor, bottomColor.cgColor]
+    }
 
 }
