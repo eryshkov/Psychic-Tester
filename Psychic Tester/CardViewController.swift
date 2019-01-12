@@ -10,14 +10,30 @@ import UIKit
 
 class CardViewController: UIViewController {
     //MARK: -
-    weak var delegate: UIViewController!
+    weak var delegate: ViewController!
     
     var front: UIImageView!
     var back: UIImageView!
     
     var isCorrect = false
     
+    //MARK: -
+    @objc func cardTapped() {
+        delegate.cardTapped(self)
+    }
     
+    func wasTapped() {
+        
+    }
+    
+    @objc func wasntTapped() {
+        UIView.animate(withDuration: 0.7) {
+            self.view.transform = CGAffineTransform(scaleX: 0.00001, y: 0.00001)
+            self.view.alpha = 0
+        }
+    }
+    
+    //MARK: -
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,6 +50,10 @@ class CardViewController: UIViewController {
         UIView.animate(withDuration: 0.2) {[unowned self] in
             self.back.alpha = 1
         }
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(cardTapped))
+        back.isUserInteractionEnabled = true
+        back.addGestureRecognizer(tap)
     }
     
 

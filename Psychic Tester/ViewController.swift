@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     //MARK: -
     @objc func loadCards() {
         
+        view.isUserInteractionEnabled = true
+        
         for card in allCards {
             card.view.removeFromSuperview()
             card.removeFromParent()
@@ -65,6 +67,27 @@ class ViewController: UIViewController {
         
         
     }
+    
+    func cardTapped(_ tapped: CardViewController) {
+        guard view.isUserInteractionEnabled == true else {
+            return
+        }
+        
+        view.isUserInteractionEnabled = false
+        
+        for card in allCards {
+            if card == tapped {
+                card.wasTapped()
+                card.perform(#selector(card.wasntTapped), with: nil, afterDelay: 1)
+            }else{
+                card.wasntTapped()
+            }
+        }
+        
+        perform(#selector(loadCards), with: nil, afterDelay: 2)
+    }
+    
+    
     //MARK: -
     override func viewDidLoad() {
         super.viewDidLoad()
