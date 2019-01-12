@@ -21,6 +21,7 @@
 		5CB346BC21E890930046E590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB346BB21E890930046E590 /* Assets.xcassets */; };
 		5CB346CC21E8916D0046E590 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */; };
 		5CB346CE21E895F90046E590 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB346CD21E895F90046E590 /* CardViewController.swift */; };
+		5CB346D421E9BC170046E590 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB346D321E9BC170046E590 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		5CB346BD21E890930046E590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PhantomFromSpace.mp3; sourceTree = "<group>"; };
 		5CB346CD21E895F90046E590 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		5CB346D321E9BC170046E590 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,13 +129,11 @@
 		5CB3469321E890900046E590 /* Psychic Tester */ = {
 			isa = PBXGroup;
 			children = (
-				5CB3469421E890900046E590 /* AppDelegate.swift */,
-				5CB3469621E890900046E590 /* ViewController.swift */,
-				5CB346CD21E895F90046E590 /* CardViewController.swift */,
-				5CB3469821E890900046E590 /* Main.storyboard */,
-				5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */,
+				5CB346D221E9BBC20046E590 /* Other */,
+				5CB346D121E9BBB30046E590 /* Model */,
+				5CB346D021E9BBAB0046E590 /* View */,
+				5CB346CF21E9BB9D0046E590 /* Controller */,
 				5CB3469B21E890920046E590 /* Assets.xcassets */,
-				5CB3469D21E890920046E590 /* LaunchScreen.storyboard */,
 				5CB346A021E890920046E590 /* Info.plist */,
 			);
 			path = "Psychic Tester";
@@ -158,6 +158,41 @@
 				5CB346BD21E890930046E590 /* Info.plist */,
 			);
 			path = "Psychic Tester WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5CB346CF21E9BB9D0046E590 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CB3469621E890900046E590 /* ViewController.swift */,
+				5CB346CD21E895F90046E590 /* CardViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CB346D021E9BBAB0046E590 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CB3469821E890900046E590 /* Main.storyboard */,
+				5CB3469D21E890920046E590 /* LaunchScreen.storyboard */,
+				5CB346D321E9BC170046E590 /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CB346D121E9BBB30046E590 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CB346D221E9BBC20046E590 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5CB3469421E890900046E590 /* AppDelegate.swift */,
+				5CB346CB21E8916D0046E590 /* PhantomFromSpace.mp3 */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +330,7 @@
 			files = (
 				5CB3469721E890900046E590 /* ViewController.swift in Sources */,
 				5CB3469521E890900046E590 /* AppDelegate.swift in Sources */,
+				5CB346D421E9BC170046E590 /* GradientView.swift in Sources */,
 				5CB346CE21E895F90046E590 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

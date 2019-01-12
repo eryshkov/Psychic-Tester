@@ -23,7 +23,10 @@ class CardViewController: UIViewController {
     }
     
     func wasTapped() {
-        
+        UIView.transition(with: view, duration: 0.7, options: [.transitionFlipFromRight], animations: {[unowned self] in
+            self.back.isHidden = true
+            self.front.isHidden = false
+        }, completion: nil)
     }
     
     @objc func wasntTapped() {
