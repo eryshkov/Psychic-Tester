@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     //MARK: -
@@ -15,8 +16,19 @@ class ViewController: UIViewController {
     
     //MARK: -
     var allCards = [CardViewController]()
+    var music: AVAudioPlayer!
     
     //MARK: -
+    func playMusic() {
+        if let musicURL = Bundle.main.url(forResource: "PhantomFromSpace", withExtension: "mp3") {
+            if let audioPlayer = try? AVAudioPlayer(contentsOf: musicURL) {
+                music = audioPlayer
+                music.numberOfLoops = -1
+                music.play()
+            }
+        }
+    }
+    
     @objc func loadCards() {
         
         view.isUserInteractionEnabled = true
@@ -120,6 +132,7 @@ class ViewController: UIViewController {
         
         createParticles()
         loadCards()
+        playMusic()
         
         view.backgroundColor = UIColor.red
         
