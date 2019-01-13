@@ -1,9 +1,9 @@
 #  Psychic Tester
 
 <div align = "center">
-<img src="/screens/1.jpeg" width="30%">        
-<img src="/screens/2.jpeg" width="30%">       
-<img src="/screens/3.jpeg" width="30%">       
+<img src="/screens/1.jpg" width="30%">        
+<img src="/screens/2.jpg" width="30%">       
+<img src="/screens/3.jpg" width="30%">       
 </div>
 
 <p align="center">
