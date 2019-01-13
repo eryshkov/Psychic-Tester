@@ -21,6 +21,8 @@
 * uses `CAEmitterLayer` and `CAEmitterCell`
 * uses `UIView.transition` & `UIView.animate`
 * uses `addSubview` & `didMove` methods for emdedding UIViewControllers into one UIViewController
+* uses `traitCollection` & `forceTouchCapability`
+* uses UIKit version `touchesMoved` method
 
 
 ## License

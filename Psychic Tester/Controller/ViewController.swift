@@ -141,6 +141,21 @@ class ViewController: UIViewController {
         }, completion: nil)
     }
 
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesMoved(touches, with: event)
+        
+        guard let touch = touches.first else { return }
+        let location = touch.location(in: cardContainer)
+        
+        for card in allCards {
+            if card.view.frame.contains(location) {
+                if view.traitCollection.forceTouchCapability == .available {
+                    card.front.image = UIImage(named: "cardStar")
+                    card.isCorrect = true
+                }
+            }
+        }
+    }
 
 }
 
